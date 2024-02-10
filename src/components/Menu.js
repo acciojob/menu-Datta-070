@@ -80,7 +80,7 @@ const Menu=()=>{
 
     function handleCategories(e){
         if(e.target.innerText==='All'){
-            setDishes(data);
+            setDishes(data);    
             return;
         }
         if(e.target.innerText==='Breakfast'){
